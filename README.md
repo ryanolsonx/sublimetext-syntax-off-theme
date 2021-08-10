@@ -16,13 +16,13 @@ To install it, look for "Syntax Off Color Scheme" in [Package Control](https://p
 
 There are many reasons why you might want to turn off syntax highlighting. Here are a few I've found:
 
-1. Get things done. No more switching color schemes and trying to find the "perfect" color scheme. Instead, you can simply focus on what's really important: gettings things done. In my case, this means programming. For others, this might mean writing.
+1. Get things done. No more switching color schemes and trying to find the "perfect" color scheme. Instead, you can simply focus on what's really important: getting things done. In my case, this means programming. For others, this might mean writing.
 
-2. You actually read the code. I've found that when you turn syntax highlighting off, you actually *read* the code.
+2. You actually read the code. I've found that when you turn syntax highlighting off, you actually **read** the code.
 
 3. Less distraction. No more getting distracted by loud colors (that sometimes don't make sense.)
 
-### Articles
+### Bedtime Reading
 
 - [:syntax off](https://dudzik.co/digress-into-development/syntax-off/)
 
