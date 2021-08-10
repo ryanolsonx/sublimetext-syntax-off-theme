@@ -1,0 +1,93 @@
+{
+    "name": "Syntax Off (Dark)",
+    "author": "Ryan Olson",
+    "variables":
+    {
+        "black": "#000000",
+        "black2": "#212117",
+        "black3": "#282923",
+        "white2": "#f8f8f1",
+        "white3": "#f8f8f2",
+        "red": "#f83535",
+        "red2": "#f92472",
+        "yellow": "#e7db74",
+        "yellow2": "#a6e22c",
+        "yellow4": "#3e3d32",
+        "orange2": "#9f570f",
+        "orange3": "#ffe894",
+        "purple": "#ac80ff",
+        "grey": "#555449b3",
+    },
+    "globals":
+    {
+        "foreground": "var(white3)",
+        "background": "var(black3)",
+        "caret": "color(var(white2) alpha(0.9))",
+        "block_caret": "color(var(white2) alpha(0.2))",
+        "block_caret_border": "color(var(white2) alpha(0.8))",
+        "invisibles": "color(var(white3) alpha(0.35))",
+        "line_highlight": "var(yellow4)",
+        "selection": "var(grey)",
+        "selection_border": "var(black2)",
+        "misspelling": "var(red2)",
+        "active_guide": "color(var(orange2) alpha(0.69))",
+        "find_highlight_foreground": "var(black)",
+        "find_highlight": "var(orange3)",
+        "brackets_options": "underline",
+        "brackets_foreground": "color(var(white3) alpha(0.65))",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "color(var(white3) alpha(0.65))",
+        "tags_options": "stippled_underline",
+    },
+    "rules":
+    [
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red2)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(yellow2)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(yellow)"
+        },
+        {
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "color(var(purple) alpha(0.63))"
+        },
+        {
+            "scope": "entity.name.filename",
+            "foreground": "var(yellow)"
+        },
+        {
+            "scope": "message.error",
+            "foreground": "var(red)"
+        },
+
+        {
+            "scope": "diff.deleted",
+            "background": "#c7578026",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "#d8467b4c",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "#9bc34b26",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "#a1d5394c",
+            "foreground_adjust": "l(+ 10%)"
+        },
+    ]
+}

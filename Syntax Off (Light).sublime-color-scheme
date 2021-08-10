@@ -1,0 +1,92 @@
+{
+    "name": "Syntax Off (Light)",
+    "author": "Ryan Olson",
+    "variables":
+    {
+        "blue": "#5c99d6",
+        "blue2": "#5fb4b4",
+        "green": "#80b979",
+        "grey": "#000000",
+        "grey3": "#000000",
+        "orange": "#f9ae58",
+        "orange3": "#fac761",
+        "pink": "#c695c6",
+        "red": "#ec5f66",
+        "white2": "#d5d9dd",
+        "white3": "#d8dcdfb3",
+        "white4": "#ebeeef",
+        "white5": "#fcfdfd"
+    },
+    "globals":
+    {
+        "foreground": "var(grey3)",
+        "background": "var(white5)",
+        "accent": "var(blue)",
+        "caret": "var(blue2)",
+        "block_caret": "color(var(white3) a(0.5))",
+        "line_highlight": "var(white3)",
+        "selection": "var(white3)",
+        "selection_border": "var(white2)",
+        "inactive_selection": "var(white4)",
+        "misspelling": "var(red)",
+        "shadow": "var(grey)",
+        "active_guide": "var(blue2)",
+        "stack_guide": "color(var(blue2) alpha(0.5))",
+        "highlight": "var(blue2)",
+        "find_highlight_foreground": "var(grey3)",
+        "find_highlight": "var(orange3)",
+        "brackets_options": "underline",
+        "brackets_foreground": "var(orange)",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "var(blue2)",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "var(pink)"
+    },
+    "rules":
+    [
+        {
+            "name": "diff.deleted",
+            "scope": "markup.deleted",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "diff.inserted",
+            "scope": "markup.inserted",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "diff.changed",
+            "scope": "markup.changed",
+            "foreground": "var(orange)"
+        },
+        {
+            "scope": "constant.numeric.line-number.match",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "message.error",
+            "foreground": "var(red)"
+        },
+
+        {
+            "scope": "diff.deleted",
+            "background": "#f8e2e2",
+            "foreground_adjust": "l(- 20%)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "#f0c2c2",
+            "foreground_adjust": "l(- 30%)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "#e5f8e2",
+            "foreground_adjust": "l(- 20%)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "#c6f0c2",
+            "foreground_adjust": "l(- 30%)"
+        },
+    ]
+}
